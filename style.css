@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
 
 .main_seach {
     margin-top: 25px;
+    margin-bottom: 25px;
     height: 51px;
     display: flex;
     align-items: center;
@@ -13,7 +15,7 @@
 }
 
 .header_details_sam::after {
-    content: '\25BC';
+    content: '\25BE';
 }
 
 
@@ -26,7 +28,6 @@
     font-family: Lato;
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: 0.35px;
     text-align: right;
     color: #222222;
 }
@@ -78,7 +79,7 @@
 .header_basket {
     width: 32px;
     height: 29px;
-    margin-left: 349px;
+    margin-left: 331px;
     margin-right: 29px;
 }
 
@@ -86,9 +87,12 @@
     list-style: none;
     font-family: Lato;
     font-size: 15px;
-    letter-spacing: 0.38px;
     text-align: right;
     color: #ffffff;
     background-color: #f16d7f;
-    padding: 12px 6px 12px 12px;
+    padding: 12px 6px 12px 17px;
+}
+
+.line_header {
+    border-top: solid 1px #e6e6e6;
 }
