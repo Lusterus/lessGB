@@ -96,3 +96,78 @@
 .line_header {
     border-top: solid 1px #e6e6e6;
 }
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.link_header {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.ink_header:last-of-type {
+    margin-right: 0;
+}
+
+.nav_menu {
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.div_men {
+    height: 623px;
+    background-color: rgb(232, 232, 232);
+    position: relative;
+}
+
+.red_block {
+    height: 92px;
+    width: 12px;
+    background-color: #f16d7f;
+    position: absolute;
+    top: 224px;
+}
+
+.textbrand {
+    position: relative;
+}
+
+.textbrandin {
+    position: absolute;
+    left: 24px;
+    top: 224px;
+}
+
+.textbrand_one {
+    line-height: 0.7;
+    margin: 0;
+    font-family: Lato;
+    font-weight: 900;
+    color: #222222;
+    font-size: 40px;
+}
+
+.textbrand_f {
+    font-size: 60px;
+}
+
+.textbrand_t {
+    line-height: 1.7;
+}
+
+.textbrand_l {
+    color: #f16d7f;
+    line-height: 1.7;
+}
+
+.text_union {
+    display: flex;
+}
