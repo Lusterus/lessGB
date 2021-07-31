@@ -298,3 +298,69 @@
 .all_product::after {
     content: '\279E';
 }
+
+.banner_girl {
+    background-color: #222224;
+    margin-top: 113px;
+}
+
+.banner_girl_img {
+    filter: brightness(70%);
+}
+
+.h_text_type_1 {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #fbfbfb;
+}
+
+.text_type_1 {
+    margin-top: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #fbfbfb;
+
+}
+
+.banner_girl {
+    display: flex;
+}
+
+.banner_girl_items_all {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    margin-right: 36px;
+    justify-content: space-around;
+
+}
+
+.banner_girl_item {
+    display: flex;
+}
+
+.banner_girl_item_img {
+    margin-right: 35px;
+}
+
+.g_image1 {
+
+    height: 32px;
+}
+
+.g_image2 {
+
+    height: 45px;
+}
+
+.g_image3 {
+
+    height: 35px;
+}
