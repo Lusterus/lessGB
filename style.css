@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 * {
     box-sizing: content-box;
@@ -233,4 +232,69 @@
 .text_offer_2,
 .text_offer_4 {
     top: 46px;
+}
+
+.fetured_item {
+    margin-top: 100px;
+    margin-bottom: 97px;
+    text-align: center;
+}
+
+.h2_fetured {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.fetured_items_desc {
+    margin-top: 16px;
+    font-family: Lato;
+    font-size: 14px;
+    color: #9f9f9f;
+
+}
+
+.desc_items_card {
+    font-family: Lato;
+    font-size: 14px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.price_items_card {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f16d7f;
+    margin-top: 17px;
+}
+
+.fetured_items_card {
+    margin-top: 60px;
+    width: 261px;
+    text-align: left;
+}
+
+.wrap_items_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.all_product {
+    margin-top: 79px;
+    display: inline-block;
+    padding: 18px 24px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f16d7f;
+}
+
+.all_product::after {
+    content: '\279E';
 }
