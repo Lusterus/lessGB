@@ -579,3 +579,13 @@ a {
     letter-spacing: 0.4px;
     color: #7a7a7a;
 }
+
+.fab {
+    font-size: 32px;
+    color: white;
+    margin-right: 3px;
+}
+
+.fab:last-of-type {
+    margin-right: 0;
+}
