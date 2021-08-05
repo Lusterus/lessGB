@@ -589,3 +589,44 @@ a {
 .fab:last-of-type {
     margin-right: 0;
 }
+
+.gr_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.gray_bg {
+    background-color: #f8f3f4;
+    height: 148px;
+}
+
+.New_Arrivals {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 0.83;
+    color: #f16d7f;
+    text-transform: uppercase;
+}
+
+.pt {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #636363;
+}
+
+.pt_text {
+    font-weight: bold;
+    color: #f16d7f;
+
+}
+
+.details_product {
+    display: flex;
+    flex-direction: column;
+}
