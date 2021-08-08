@@ -620,7 +620,14 @@ a
     font-weight: bold
     color: #f16d7f
 
+.menu_product
+    display: grid
+    grid-template:  repeat(5,1fr)/264px repeat(3,1fr)
+    gap: 0 30px
 
+.menu_categoriy
+    grid-area: 1/1/-1/2
+    padding-right: 20px
 
 .details_product 
     display: flex
@@ -646,25 +653,36 @@ a
     font-size: 14px
     line-height: 2.36
     text-align: left
-    color: #6f6e6e
-
-.menu_product
-    display: flex
-.select_k 
-  display: grid
-  grid-auto-flow: column
-  grid-auto-columns: 1fr
-
-.menu_categoriy 
-    min-width: 230px
-    margin-right: 51px
-    
-.item_box
-    display: flex
-    flex-flow: row wrap
-
-
+    color: #6f6e6e 
+  
 .item_box_a 
-    border-right: 1px solid #ebebeb
+    border-right: 2px solid #ebebeb
     padding: 0 10px
-
+    font-family: Lato
+    font-size: 14px
+    text-align: left
+    color: #6f6e6e
+.item_box_a_no_p
+    padding: 0 10px 0 0
+.item_box_line1
+    display: flex
+.item_box_line2
+    display: flex
+    margin-top: 10px
+.item_box_line1 a:last-of-type
+    border-right: none
+    padding-right: 0
+.item_box_line2 a:last-of-type
+    border-right: none
+    padding-right: 0
+.trending
+    width: 176px
+.size
+    width: 100%
+.input_range_price
+    width: 100%
+.item_box_size
+    display: grid
+    grid-template: repeat(2,1fr)/repeat(4, 1fr)
+.label_checbox_size 
+    padding-left: 10px
